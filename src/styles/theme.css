@@ -1,0 +1,32 @@
+/* Dark Theme (Empire) */
+.dark-theme {
+  --primary-bg: #0a0a0a;
+  --secondary-bg: #1a1a1a;
+  --accent-color: #ff4444; /* Sith red */
+  --secondary-accent: #ff9999;
+  --text-color: #f0f0f0;
+  --text-secondary: #aaaaaa;
+  --highlight: #ff4444;
+  --card-bg: rgba(26, 26, 26, 0.8);
+}
+
+/* Light Theme (Rebel) */
+.light-theme {
+  --primary-bg: #0a0e17;
+  --secondary-bg: #1a2639;
+  --accent-color: #4da6ff; /* Jedi blue */
+  --secondary-accent: #99ccff;
+  --text-color: #f0f0f0;
+  --text-secondary: #aaaaaa;
+  --highlight: #4da6ff;
+  --card-bg: rgba(26, 38, 57, 0.8);
+}
+
+/* Theme-based element styling */
+.dark-theme .lightsaber {
+  filter: hue-rotate(300deg) brightness(1.2);
+}
+
+.light-theme .lightsaber {
+  filter: hue-rotate(180deg) brightness(1.2);
+}

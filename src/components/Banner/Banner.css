@@ -1,0 +1,65 @@
+.banner-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  padding: 0 20px;
+}
+
+.banner-content {
+  margin-top: 2rem;
+}
+
+.banner-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+  text-shadow: 0 0 10px var(--accent-color);
+}
+
+.banner-content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.name-highlight {
+  color: var(--highlight);
+  text-shadow: 0 0 15px var(--highlight);
+}
+
+.scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.scroll-text {
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+.lightsaber {
+  width: 4px;
+  height: 100px;
+  background: linear-gradient(to top, var(--accent-color), transparent);
+  box-shadow: 0 0 10px var(--accent-color);
+  position: relative;
+  animation: lightsaberGlow 1.5s infinite;
+}
+
+.lightsaber::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -8px;
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+}

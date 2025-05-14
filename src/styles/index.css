@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  color: #fff;
+}
+
+/* Star Wars font classes */
+.star-wars-font {
+  font-family: 'Star Jedi', 'Arial', sans-serif;
+  letter-spacing: 1px;
+}
+
+.star-wars-font-hollow {
+  font-family: 'Star Jedi Hollow', 'Arial', sans-serif;
+}
