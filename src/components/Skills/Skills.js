@@ -26,7 +26,7 @@ const Skills = ({ theme }) => {
             level="padawan"
           />
           <SkillLevel 
-            title="Jedi Knight ()" 
+            title="Jedi Master (advanced)" 
             skills={skills.knight}
             theme={theme}
             level="knight"

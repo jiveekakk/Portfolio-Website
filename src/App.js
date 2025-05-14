@@ -9,12 +9,15 @@ import Contact from './components/Contact/Contact';
 import ThemeToggle from './components/ThemeToggle/ThemeToggle';
 import Starfield from './components/Background/Starfield';
 
+
+
 function App() {
   const [theme, setTheme] = useState('dark'); // 'light' or 'dark'
 
   return (
     <div className={`app ${theme}-theme`}>
       <Starfield />
+      <div className="themed-background" />
       <ThemeToggle theme={theme} setTheme={setTheme} />
       <Navbar theme={theme} />
       <Banner theme={theme} />
