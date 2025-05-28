@@ -80,8 +80,9 @@ const Contact = ({ theme }) => {
             <div className="resume-download">
               <h3>Download My Jedi Archives</h3>
               <a 
-                href="/path/to/your/resume.pdf" 
-                download
+                href="/CV/Jiveekakk-CV.pdf" 
+                download="Jiveekakk-CV.pdf"
+                target="_blank"
                 className={`resume-btn ${theme}-btn`}
               >
                 Download Resume

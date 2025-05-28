@@ -13,14 +13,15 @@ const About = ({ theme }) => {
           <div className="about-grid">
             <div className="about-text">
               <p>
-                Like a young Jedi emerging from the academy, I've been honing my skills 
-                in software development through my BSc in IT studies and real-world internship 
-                experience.
+                 Much like a young Padawan emerging from the Jedi Temple, I’ve been sharpening my skills in software development 
+                 through my BSc in IT studies and hands-on internship experiences.
+                  My training has equipped me with the foundational knowledge and real-world exposure to navigate the galaxy of modern tech.
               </p>
               <p>
-                My journey in technology began when I first discovered programming, 
-                much like Luke Skywalker discovering the Force. Since then, I've been 
-                passionate about using code to solve problems and create innovative solutions.
+                My journey into the world of technology began with a spark—my first line of code.
+                 It was as if I had just discovered my connection to the Force. 
+                 Since then, I've been driven by a passion to use technology not just as a tool,
+                  but as a way to bring balance—solving real problems with creative and impactful solutions.
               </p>
               <p>
                 When I'm not coding, you can find me contributing to my personal projects, 

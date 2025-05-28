@@ -16,9 +16,9 @@ const StarWarsIntro = ({ theme }) => {
             into the vast galaxy of software engineering.
           </p>
           <p>
-            During her internship she demonstrated 
-            exceptional skills in , contributing to the 
-            development of [Projects/Features].
+            During her training, she demonstrated exceptional skills in 
+            modern web technologies, contributing to the development of 
+            innovative applications and systems.
           </p>
           <p>
             Now, seeking to join the ranks of elite developers, she presents 
