@@ -15,7 +15,7 @@ const OpeningCrawl = ({ theme }) => {
     <div className="crawl-container">
       <div ref={crawlRef} className="crawl">
         <div className="title">
-          <h1 className="star-wars-font">Episode V</h1>
+          <h1 className="star-wars-font">Episode I</h1>
           <h2 className="star-wars-font">A NEW DEVELOPER HOPE</h2>
         </div>
         <div className="crawl-text">

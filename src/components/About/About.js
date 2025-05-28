@@ -29,7 +29,11 @@ const About = ({ theme }) => {
               </p>
             </div>
             <div className="about-image">
-              <div className={`jedi-profile ${theme}-profile`}></div>
+               <img
+                src="/assets/images/jiveeka.jpeg"
+                alt="Developer Profile"
+              className={`jedi-profile ${theme}-profile`}>
+                </img>
             </div>
           </div>
         </div>
