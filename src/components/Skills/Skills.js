@@ -9,7 +9,7 @@ const Skills = ({ theme }) => {
       <div className="skills-container">
         <h2 className="star-wars-font">My Jedi Skills</h2>
         <p className="section-subtitle">
-          From Padawan to Jedi Knight - my progression in the coding arts
+          From Padawan to Jedi Master - my progression in the coding arts
         </p>
         
         <div className="skills-levels">
