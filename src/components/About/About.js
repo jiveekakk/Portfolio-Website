@@ -24,9 +24,18 @@ const About = ({ theme }) => {
                   but as a way to bring balance—solving real problems with creative and impactful solutions.
               </p>
               <p>
-                When I'm not coding, you can find me contributing to my personal projects, 
-                learning new technologies, or (admittedly) rewatching the Star Wars saga.
+              When I’m not buried in code or debugging the universe, I’m out leveling up in real life.
+              Whether it's crushing personal records at the gym or chasing the bass drop at a rave or Festival is my playground.
+              I’m a lifelong sports junkie with loyalty split between Manchester United and Real Madrid, 
+              adrenaline-fueled F1 Sundays with Ferrari, and a soft spot for tennis legend Rafa Nadal (Wimbledon will never be the same 💔).
               </p>
+              <p>
+                But beyond the muscle and match days, I’m a massive geek at heart. Give me anything Marvel, Harry Potter,
+                 or pure science fiction nonsense and I’ll lose hours happily nerding out. I live for the side quests,
+                 finding hidden gems, vibing with new people, and unlocking experiences across my city. 
+                 And yes, I do unreasonably drop too much cash on clothes, but call it character development.
+                Catch me balancing grind and glow-up, one adventure (or outfit) at a time. 
+                </p>
             </div>
             <div className="about-image">
                <img
